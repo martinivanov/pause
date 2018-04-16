@@ -1,3 +1,5 @@
-FROM microsoft/nanoserver-insider
+FROM microsoft/windowsservercore-insider:10.0.17623.1002
 
-CMD timeout /t -1
+ADD pause.ps1 pause.ps1
+
+CMD powershell .\pause.ps1
