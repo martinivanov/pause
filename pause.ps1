@@ -1,4 +1,4 @@
 while($true)
 {
-    Start-Sleep -Seconds 60
+    Start-Sleep -Seconds 10
 }
